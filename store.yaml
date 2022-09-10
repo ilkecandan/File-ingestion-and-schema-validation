@@ -1,0 +1,19 @@
+file_type: csv
+dataset_name: file
+file_name: Rate
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:
+    - Rank
+    - Name
+    - Platform
+    - Year
+    - Genre
+    - Publisher
+    - NA_Sales
+    - EU_Sales
+    - JP_Sales
+    - Other_Sales
+    - Global_Sales
